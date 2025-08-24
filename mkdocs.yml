@@ -4,12 +4,12 @@
 docs_dir: Labs
 edit_uri: ""
 repo_name: nirgeier/mkdocs
-repo_url: https://github.com/nirgeier/mkdocs
-site_author: Nir Geier - nirgeier@gmail.com
+repo_url: 
+site_author: 
 site_description: A collection of GitHub Labs for learning and practicing GitHub skills.
 site_dir: ./mkdocs-site
 site_name: mkdocs
-site_url: https://nirgeier.github.io/mkdocs/
+site_url: 
 ###
 ### mkdocs-theme.yml
 ###
@@ -85,13 +85,13 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/nirgeier/mkdocs
+      link: https://github.com/niv-devops/mkdocs
       name: View on GitHub
     - icon: octicons/star-16
-      link: https://github.com/nirgeier/mkdocs/stargazers
+      link: https://github.com/niv-devops/mkdocs/stargazers
       name: Star this repo
     - icon: octicons/repo-forked-16
-      link: https://github.com/nirgeier/mkdocs/network/members
+      link: https://github.com/niv-devops/mkdocs/network/members
       name: Fork this repo
 
 extra_css:
@@ -117,7 +117,7 @@ plugins:
       branch: main
       docs_path: Labs # set if your docs folder is not root
       enabled: true
-      repository: nirgeier/mkdocs
+      repository: niv-devops/mkdocs
   - git-revision-date-localized:
       enable_creation_date: true
       enable_git_follow: false

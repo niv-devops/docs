@@ -8,13 +8,13 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/nirgeier/mkdocs
+      link: https://github.com/niv-devops/mkdocs
       name: View on GitHub
     - icon: octicons/star-16
-      link: https://github.com/nirgeier/mkdocs/stargazers
+      link: https://github.com/niv-devops/mkdocs/stargazers
       name: Star this repo
     - icon: octicons/repo-forked-16
-      link: https://github.com/nirgeier/mkdocs/network/members
+      link: https://github.com/niv-devops/mkdocs/network/members
       name: Fork this repo
 
 extra_css:
