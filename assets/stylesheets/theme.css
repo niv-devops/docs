@@ -35,7 +35,7 @@ body {
     position: fixed;
     right: 10px;
     bottom: 0px;
-    background-image: url("https://raw.githubusercontent.com/nirgeier/labs-assets/main/assets/images/codeWizard.png");
+    background-image: url("../images/niv-devops-icon.png");
     background-size: cover;
     background-position: center;
   }
@@ -199,7 +199,7 @@ body {
     margin: 2.5cm;
     @top-center {
       /* Define a custom string for the document title */
-      content: "GitHub Workshop Aug 2025 [Atera by Nir Geier]"; /* Simple string for the header */
+      content: "DevOps Projects Aug 2025 [Atera by Nir Geier]"; /* Simple string for the header */
       font-size: 12px;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       color: #777;
