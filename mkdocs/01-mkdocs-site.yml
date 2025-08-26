@@ -3,10 +3,10 @@
 ###
 docs_dir: Labs
 edit_uri: ""
-repo_name: nirgeier/mkdocs
-repo_url: 
+repo_name: niv-devops/mkdocs
+repo_url: https://github.com/niv-devops/mkdocs.git
 site_author: 
-site_description: A collection of GitHub Labs for learning and practicing GitHub skills.
+site_description: A collection of DevOps projects for learning and practicing DevOps skills.
 site_dir: ./mkdocs-site
 site_name: mkdocs
-site_url: 
+site_url: https://niv-devops.github.io/mkdocs/

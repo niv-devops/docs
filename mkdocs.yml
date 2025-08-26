@@ -3,7 +3,7 @@
 ###
 docs_dir: Labs
 edit_uri: ""
-repo_name: nirgeier/mkdocs
+repo_name: niv-devops/mkdocs
 repo_url: 
 site_author: 
 site_description: A collection of GitHub Labs for learning and practicing GitHub skills.
@@ -13,7 +13,7 @@ site_url:
 ###
 ### mkdocs-theme.yml
 ###
-copyright: "©2025-2025 Nir Geier"
+copyright: "©2025-2025 Niv Zilberman"
 theme:
   name: material
   custom_dir: overrides
