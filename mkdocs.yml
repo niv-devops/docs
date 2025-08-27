@@ -180,16 +180,21 @@ markdown_extensions:
 ###
 
 nav:
-  - Documentation Site Template: README.md
-  - How-to Guides:
-    - How-to Guides: guides/README.md
-    - GitHub Avatars Setup Guide: guides/github-avatars-setup.md
-    - Installation Guide: guides/installation-guide.md
-    - init_site.sh Script: guides/understanding-init-script.md
-  - Reference Documentation:
-    - Reference Documentation: reference/README.md
-    - API Reference: reference/api-reference.md
+  - About: README.md
+  - Template:
+    - Template Guides: template/README.md
+    - Documentation Site Template: template/documentation-site-template.md
+    - GitHub Avatars Setup Guide: template/github-avatars-setup.md
+    - Installation Guide: template/installation-guide.md
+    - init_site.sh Script: template/understanding-init-script.md
+  - Fundamentals:
+    - Fundamental: fundamentals/README.md
+    - API Reference: fundamentals/api-reference.md
   - Tutorials:
     - Tutorials: tutorials/README.md
     - Basic Tutorial: tutorials/01-basic-tutorial.md
     - Advanced Features Tutorial: tutorials/02-advanced-tutorial.md
+  - Git:
+    - Version Control: git/README.md
+  - Programming:
+    - Programming: programming/README.md
