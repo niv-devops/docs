@@ -11,35 +11,39 @@ This is a MkDocs-powered documentation site for DevOps materials.
 
 ## Fundamentals
 
-1. What is DevOps
-2. DevOps Framework
-3. Other concepts
-4. Microservices
-5. Cloud Computing
-6. Operating Systems
-7. Software Development
+
+1. [What is DevOps](https://niv-devops.github.io/mkdocs/Labs/fundamentals/what-is-devops/)
+2. [DevOps Frameworks](https://niv-devops.github.io/mkdocs/Labs/fundamentals/devops-frameworks/)
+3. [Other Concepts](https://niv-devops.github.io/mkdocs/Labs/fundamentals/other-concepts/)
+4. [Microservices](https://niv-devops.github.io/mkdocs/Labs/fundamentals/microservices/)
+5. [Cloud Computing](https://niv-devops.github.io/mkdocs/Labs/fundamentals/cloud-computing/)
+6. [Operating Systems](https://niv-devops.github.io/mkdocs/Labs/fundamentals/operating-systems/)
+7. [Software Development](https://niv-devops.github.io/mkdocs/Labs/fundamentals/software-development/)
 
 ## Tutorials
 
-1. Containerization
-2. CI/CD
-3. Cloud Providers
-4. Infrastructure as Code
-5. Monitoring
+
+1. [Containerization](https://niv-devops.github.io/mkdocs/Labs/tutorials/containerization/)
+2. [CI/CD](https://niv-devops.github.io/mkdocs/Labs/tutorials/cicd/)
+3. [Cloud Providers](https://niv-devops.github.io/mkdocs/Labs/tutorials/cloud-providers/)
+4. [Infrastructure as Code](https://niv-devops.github.io/mkdocs/Labs/tutorials/iac/)
+5. [Monitoring](https://niv-devops.github.io/mkdocs/Labs/tutorials/monitoring/)
 
 ## Git
 
-1. Git
-2. GitHub
-3. GitLab
-4. Bitbucket
+
+1. [Git](https://niv-devops.github.io/mkdocs/Labs/git/)
+2. [GitHub](https://niv-devops.github.io/mkdocs/Labs/git/github/)
+3. [GitLab](https://niv-devops.github.io/mkdocs/Labs/git/gitlab/)
+4. [Bitbucket](https://niv-devops.github.io/mkdocs/Labs/git/bitbucket/)
 
 ## Programming
 
-1. Bash
-2. PowerShell
-3. Python
-4. Go
-5. Ruby
-6. JavaScript
-7. Groovy
+
+1. [Bash](https://niv-devops.github.io/mkdocs/Labs/programming/bash/)
+2. [PowerShell](https://niv-devops.github.io/mkdocs/Labs/programming/powershell/)
+3. [Python](https://niv-devops.github.io/mkdocs/Labs/programming/python/)
+4. [Go](https://niv-devops.github.io/mkdocs/Labs/programming/go/)
+5. [Ruby](https://niv-devops.github.io/mkdocs/Labs/programming/ruby/)
+6. [JavaScript](https://niv-devops.github.io/mkdocs/Labs/programming/javascript/)
+7. [Groovy](https://niv-devops.github.io/mkdocs/Labs/programming/groovy/)

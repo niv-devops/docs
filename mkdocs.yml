@@ -189,12 +189,30 @@ nav:
     - init_site.sh Script: template/understanding-init-script.md
   - Fundamentals:
     - Fundamental: fundamentals/README.md
-    - API Reference: fundamentals/api-reference.md
+    - What is DevOps: fundamentals/what-is-devops.md
+    - DevOps Frameworks: fundamentals/devops-frameworks.md
+    - Other Concepts: fundamentals/other-concepts.md
+    - Cloud Computing: fundamentals/cloud-computing.md
+    - Operating Systems: fundamentals/operating-systems.md
+    - Software Development: fundamentals/software-development.md
   - Tutorials:
     - Tutorials: tutorials/README.md
-    - Basic Tutorial: tutorials/01-basic-tutorial.md
-    - Advanced Features Tutorial: tutorials/02-advanced-tutorial.md
+    - Containerization: tutorials/containerization.md
+    - CI/CD: tutorials/cicd.md
+    - Cloud Providers: tutorials/cloud-providers.md
+    - Infrastructure as Code: tutorials/iac.md
+    - Monitoring: tutorials/monitoring.md
   - Git:
     - Version Control: git/README.md
+    - GitHub: git/github.md
+    - GitLab: git/gitlab.md
+    - BitBucket: git/bitbucket.md
   - Programming:
     - Programming: programming/README.md
+    - Bash: programming/bash.md
+    - PowerShell: programming/powershell.md
+    - Python: programming/python.md
+    - Go: programming/go.md
+    - Ruby: programming/ruby.md
+    - JavaScript: programming/javascript.md
+    - Groovy: programming/groovy.md
