@@ -8,7 +8,7 @@ repo_url: https://github.com/niv-devops/docs.git
 site_author: 
 site_description: Documentation site for DevOps materials.
 site_dir: ./mkdocs-site
-site_name: docs
+site_name: Niv DevOps Docs
 site_url: https://niv-devops.github.io/docs/
 ###
 ### mkdocs-theme.yml
@@ -192,9 +192,10 @@ nav:
     - What is DevOps: fundamentals/what-is-devops.md
     - DevOps Frameworks: fundamentals/devops-frameworks.md
     - Other Concepts: fundamentals/other-concepts.md
-    - Cloud Computing: fundamentals/cloud-computing.md
+    - Microservices: fundamentals/microservices.md
     - Operating Systems: fundamentals/operating-systems.md
     - Software Development: fundamentals/software-development.md
+    - Cloud Computing: fundamentals/cloud-computing.md
   - Tutorials:
     - Tutorials: tutorials/README.md
     - Containerization: tutorials/containerization.md

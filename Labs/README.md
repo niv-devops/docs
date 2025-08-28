@@ -15,9 +15,9 @@ This is a MkDocs-powered documentation site for DevOps materials.
 2. [DevOps Frameworks](https://niv-devops.github.io/docs/fundamentals/devops-frameworks/)
 3. [Other Concepts](https://niv-devops.github.io/docs/fundamentals/other-concepts/)
 4. [Microservices](https://niv-devops.github.io/docs/fundamentals/microservices/)
-5. [Cloud Computing](https://niv-devops.github.io/docs/fundamentals/cloud-computing/)
-6. [Operating Systems](https://niv-devops.github.io/docs/fundamentals/operating-systems/)
-7. [Software Development](https://niv-devops.github.io/docs/fundamentals/software-development/)
+5. [Operating Systems](https://niv-devops.github.io/docs/fundamentals/operating-systems/)
+6. [Software Development](https://niv-devops.github.io/docs/fundamentals/software-development/)
+7. [Cloud Computing](https://niv-devops.github.io/docs/fundamentals/cloud-computing/)
 
 ## Tutorials
 
