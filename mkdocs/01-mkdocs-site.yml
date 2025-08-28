@@ -3,10 +3,10 @@
 ###
 docs_dir: Labs
 edit_uri: ""
-repo_name: niv-devops/mkdocs
-repo_url: https://github.com/niv-devops/mkdocs.git
+repo_name: niv-devops/docs
+repo_url: https://github.com/niv-devops/docs.git
 site_author: 
-site_description: A collection of DevOps projects for learning and practicing DevOps skills.
+site_description: Documentation site for DevOps materials.
 site_dir: ./mkdocs-site
-site_name: mkdocs
-site_url: https://niv-devops.github.io/mkdocs/
+site_name: docs
+site_url: https://niv-devops.github.io/docs/

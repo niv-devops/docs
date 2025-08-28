@@ -3,13 +3,13 @@
 ###
 docs_dir: Labs
 edit_uri: ""
-repo_name: niv-devops/mkdocs
-repo_url: 
+repo_name: niv-devops/docs
+repo_url: https://github.com/niv-devops/docs.git
 site_author: 
-site_description: A collection of GitHub Labs for learning and practicing GitHub skills.
+site_description: Documentation site for DevOps materials.
 site_dir: ./mkdocs-site
-site_name: mkdocs
-site_url: 
+site_name: docs
+site_url: https://niv-devops.github.io/docs/
 ###
 ### mkdocs-theme.yml
 ###
@@ -85,13 +85,13 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/niv-devops/mkdocs
+      link: https://github.com/niv-devops/docs
       name: View on GitHub
     - icon: octicons/star-16
-      link: https://github.com/niv-devops/mkdocs/stargazers
+      link: https://github.com/niv-devops/docs/stargazers
       name: Star this repo
     - icon: octicons/repo-forked-16
-      link: https://github.com/niv-devops/mkdocs/network/members
+      link: https://github.com/niv-devops/docs/network/members
       name: Fork this repo
 
 extra_css:
@@ -117,7 +117,7 @@ plugins:
       branch: main
       docs_path: Labs # set if your docs folder is not root
       enabled: true
-      repository: niv-devops/mkdocs
+      repository: niv-devops/docs
   - git-revision-date-localized:
       enable_creation_date: true
       enable_git_follow: false
