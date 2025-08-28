@@ -1,3 +1,7 @@
+<p align="center">
+   <img src="./Labs/assets/favicon.png" alt="Niv-DevOps Logo" width="300"/>
+</p>
+
 # MkDocs Template Project
 
 - A comprehensive and feature-rich MkDocs template designed for creating beautiful documentation sites with GitHub Pages integration. 
