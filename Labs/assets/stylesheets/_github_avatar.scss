@@ -131,3 +131,26 @@
     width: 1.8rem;
   }
 }
+
+/* Responsive avatar sizes */
+@media screen and (max-width: 900px) {
+  .md-author {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  .md-source-file--large .md-author {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .md-author {
+    height: 1rem;
+    width: 1rem;
+  }
+  .md-source-file--large .md-author {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+}
