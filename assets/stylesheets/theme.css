@@ -99,14 +99,63 @@ body {
 }
 
 /* Force sidebar to be visible alongside tabs */
-.md-sidebar {
+/* .md-sidebar {
   display: block !important;
-}
+} */
 
 /* Make sure content area doesn't overlap */
 .md-main__inner {
   display: grid;
   grid-template-columns: minmax(250px, 300px) 1fr;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+/* @media screen and (max-width: 900px) {
+  .md-main__inner {
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+    gap: 1rem;
+  }
+  .md-sidebar {
+    display: none !important;
+  }
+} */
+
+/* Allow content to expand full width on smaller screens */
+@media screen and (max-width: 900px) {
+  .md-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 1rem; /* small side padding */
+  }
+
+  .md-main__inner {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0 1rem;
+    display: block; /* instead of grid on small screens */
+  }
+}
+
+/* Fix medium screens (tablet/laptop sizes) */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .md-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 2rem; /* keep some breathing room */
+  }
+
+  .md-main__inner {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0 2rem;
+    display: block; /* no grid constraint */
+  }
 }
 
 /* Hide sidebar items that are not in the active tab */

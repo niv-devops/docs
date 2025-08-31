@@ -82,14 +82,103 @@ body {
 }
 
 /* Force sidebar to be visible alongside tabs */
-.md-sidebar {
-  display: block !important;
-}
+// .md-sidebar {
+//   display: block !important;
+// }
 
-/* Make sure content area doesn't overlap */
+/* Responsive grid for main content */
 .md-main__inner {
   display: grid;
   grid-template-columns: minmax(250px, 300px) 1fr;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+// @media screen and (max-width: 900px) {
+//   .md-main__inner {
+//     grid-template-columns: 1fr;
+//     padding: 0 1.5rem;
+//     gap: 1rem;
+//   }
+//   .md-sidebar {
+//     display: none !important;
+//   }
+// }
+
+/* Allow content to expand full width on smaller screens */
+@media screen and (max-width: 900px) {
+  .md-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 1rem; /* small side padding */
+  }
+
+  .md-main__inner {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0 1rem;
+    display: block; /* instead of grid on small screens */
+  }
+}
+
+/* Fix medium screens (tablet/laptop sizes) */
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+  .md-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 2rem; /* keep some breathing room */
+  }
+
+  .md-main__inner {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0 2rem;
+    display: block; /* no grid constraint */
+  }
+}
+
+/* Responsive images */
+.md-typeset img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Responsive tables */
+.md-typeset table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+/* Responsive headings and text */
+.md-typeset h1 {
+  font-size: 2em;
+}
+.md-typeset h2 {
+  font-size: 1.5em;
+}
+.md-typeset {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .md-typeset h1 {
+    font-size: 1.4em;
+  }
+  .md-typeset h2 {
+    font-size: 1.1em;
+  }
+  .md-typeset {
+    font-size: 15px;
+  }
+  .md-main__inner {
+    padding: 0 1rem;
+  }
 }
 
 /* Hide sidebar items that are not in the active tab */
