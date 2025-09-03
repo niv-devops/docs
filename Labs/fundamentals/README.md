@@ -68,6 +68,16 @@ Key basic concepts to understand in order to start the DevOps roadmap.
 - SSH Key Management
 - Vim Editor
 
+### Networking
+
+- Internet
+- OSI Model
+- Protocols
+- IP & Ports
+- (DNS) Domain Name System
+- HTTP/HTTPS
+- Load Balancers
+
 ### Software Development
 
 - Overview
