@@ -4,10 +4,11 @@ This is a MkDocs-powered documentation site for DevOps materials.
 
 ## MKDocs and site template
 
-This is a MkDocs-powered documentation site for DevOps materials.
-
 1. [MKDocs](https://niv-devops.github.io/docs/template/)
 2. [Site Template](https://niv-devops.github.io/docs/template/documentation-site-template/)
+3. [GitHub Avatar Setup](https://niv-devops.github.io/docs/template/github-avatars-setup)
+4. [Installation Guide](https://niv-devops.github.io/docs/template/installation-guide)
+5. [init_site.sh Script](https://niv-devops.github.io/docs/template/understanding-init-script)
 
 ## Fundamentals
 
@@ -16,8 +17,9 @@ This is a MkDocs-powered documentation site for DevOps materials.
 3. [Other Concepts](https://niv-devops.github.io/docs/fundamentals/other-concepts/)
 4. [Microservices](https://niv-devops.github.io/docs/fundamentals/microservices/)
 5. [Operating Systems](https://niv-devops.github.io/docs/fundamentals/operating-systems/)
-6. [Software Development](https://niv-devops.github.io/docs/fundamentals/software-development/)
-7. [Cloud Computing](https://niv-devops.github.io/docs/fundamentals/cloud-computing/)
+6. [Networking](https://niv-devops.github.io/docs/fundamentals/networking/)
+7. [Software Development](https://niv-devops.github.io/docs/fundamentals/software-development/)
+8. [Cloud Computing](https://niv-devops.github.io/docs/fundamentals/cloud-computing/)
 
 ## Tutorials
 

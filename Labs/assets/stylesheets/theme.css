@@ -78,12 +78,24 @@ body {
 }
 
 .md-typeset h1 {
+  background-color: #d8e4e9;
+  border-radius: 10px;
+  color: #01c9b5;
   font-size: 2em;
+  line-height: 1.5;
+  margin: 0 -10px;
+  padding: 0 10px;
+}
+
+.md-typeset h2 {
+  color: #6200ee;
+  font-size: 1.5em;
   line-height: 1.5;
   margin: 0px 0px 0em;
 }
 
-.md-typeset h2 {
+.md-typeset h3 {
+  color: #ff0266;
   font-size: 1.5em;
   line-height: 1.5;
   margin: 0px 0px 0em;
@@ -172,7 +184,7 @@ body {
 }
 
 [data-md-color-media="(prefers-color-scheme: dark)"] {
-  background-color: black;
+  background-color: #0F0F0F;
   color: #f2f2f2;
   /* When URL contains 'api' */
 }
@@ -233,6 +245,33 @@ body {
 }
 [data-md-color-media="(prefers-color-scheme: dark)"] .md-content a {
   color: #df3079;
+}
+[data-md-color-media="(prefers-color-scheme: dark)"] .md-content a:hover,
+[data-md-color-media="(prefers-color-scheme: dark)"] .md-typeset a:hover {
+  color: #f2a71b !important; /* Change to your preferred hover color */
+  text-decoration: underline; /* Optional: add underline on hover */
+}
+
+[data-md-color-media="(prefers-color-scheme: light)"] .md-content a {
+  color: #df3079;
+}
+[data-md-color-media="(prefers-color-scheme: light)"] .md-content a:hover,
+[data-md-color-media="(prefers-color-scheme: light)"] .md-typeset a:hover {
+  color: #f2a71b !important; /* Change to your preferred hover color */
+  text-decoration: underline; /* Optional: add underline on hover */
+}
+
+/* Custom tab bar color and text overrides */
+.md-tabs {
+  background-color: #002244 !important; /* Change to your preferred color */
+}
+
+.md-tabs__list, .md-tabs__link {
+  color: #ffcc00 !important; /* Change tab text color */
+}
+
+.md-tabs__link--active {
+  color: #ffcc00 !important; /* Active tab color */
 }
 
 @media print {
