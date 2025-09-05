@@ -2113,7 +2113,198 @@ and deploying an updated version of the service-side interface. This makes updat
 <li>
 <p><strong>Filesystem Layers</strong> - The filesystem has multiple layers of abstraction: The applications, logical file system, File-organization module, basic file system, IO control, and devices.</p>
 </li>
-</ul></section><section class="print-page" id="fundamentals-networking" heading-number="3.7"><h1 id="fundamentals-networking-networking">Networking</h1>
+</ul>
+<h2 id="fundamentals-operating-systems-vim-editor">Vim Editor</h2>
+<p><a href="https://www.vim.org">Vim</a>, short for Vi IMproved, is a highly configurable text editor built to enable efficient text editing. It’s an enhanced version of the Vi editor, which was developed back in the 1970s.</p>
+<div class="admonition note">
+<p class="admonition-title">Built-in</p>
+<p>Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X.</p>
+</div>
+<h3 id="fundamentals-operating-systems-installation-and-configuration">Installation and Configuration</h3>
+<p>Most Linux distributions come with Vim pre-installed. However, if it’s not available on your system, you can install it using your package manager.</p>
+<div class="admonition info">
+<p class="admonition-title">Install Vim</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="fundamentals-operating-systems-__tabbed_1_1" name="fundamentals-operating-systems-__tabbed_1" type="radio" /><input id="fundamentals-operating-systems-__tabbed_1_2" name="fundamentals-operating-systems-__tabbed_1" type="radio" /><input id="fundamentals-operating-systems-__tabbed_1_3" name="fundamentals-operating-systems-__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="fundamentals-operating-systems-__tabbed_1_1">Ubuntu/Debian</label><label for="fundamentals-operating-systems-__tabbed_1_2">Arch Linux</label><label for="fundamentals-operating-systems-__tabbed_1_3">macOS</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#fundamentals-operating-systems-__codelineno-0-1"></a>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>vim
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#fundamentals-operating-systems-__codelineno-1-1"></a>sudo<span class="w"> </span>pacman<span class="w"> </span>-S<span class="w"> </span>vim
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#fundamentals-operating-systems-__codelineno-2-1"></a>brew<span class="w"> </span>install<span class="w"> </span>vim
+</span></code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<h3 id="fundamentals-operating-systems-modes-in-vim">Modes in Vim</h3>
+<p>One of the unique features of Vim is its modes. Vim has several modes, each serving a different purpose:</p>
+<ul>
+<li>Normal Mode: This is the default mode when you first open Vim. In this mode, you can navigate the file,
+delete text, copy text, and perform other commands.</li>
+<li>Insert Mode: Allows you to insert and edit text. To enter Insert Mode from Normal Mode, press <code>i</code>.</li>
+<li>Visual Mode: Here you can visually select blocks of text. To enter this mode from Normal Mode, press <code>v</code>.</li>
+<li>Command-Line Mode: This mode lets you enter Vim commands. To enter Command-Line Mode from Normal Mode, press <code>:</code>.</li>
+</ul>
+<h3 id="fundamentals-operating-systems-basic-commands-in-vim">Basic Commands in Vim</h3>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Command/Keys</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saving a File</td>
+<td><code>:w</code></td>
+</tr>
+<tr>
+<td>Exiting Vim</td>
+<td><code>:q</code></td>
+</tr>
+<tr>
+<td>Force Quit</td>
+<td><code>:q!</code></td>
+</tr>
+<tr>
+<td>Save and Quit</td>
+<td><code>:wq</code></td>
+</tr>
+<tr>
+<td>Move Cursor</td>
+<td><code>h</code>, <code>j</code>, <code>k</code>, <code>l</code> or arrows</td>
+</tr>
+<tr>
+<td>Jump to Line Start</td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td>Jump to Line End</td>
+<td><code>$</code></td>
+</tr>
+<tr>
+<td>Jump to Specific Line</td>
+<td><code>:&lt;line_number&gt;</code></td>
+</tr>
+<tr>
+<td>Delete Word</td>
+<td><code>dw</code></td>
+</tr>
+<tr>
+<td>Delete N Words</td>
+<td><code>d2w</code></td>
+</tr>
+<tr>
+<td>Delete Line</td>
+<td><code>d$</code></td>
+</tr>
+<tr>
+<td>Undo</td>
+<td><code>u</code></td>
+</tr>
+<tr>
+<td>Redo</td>
+<td><code>Ctrl+r</code></td>
+</tr>
+<tr>
+<td>Search</td>
+<td><code>/word</code></td>
+</tr>
+<tr>
+<td>Next Match</td>
+<td><code>n</code></td>
+</tr>
+<tr>
+<td>Previous Match</td>
+<td><code>N</code></td>
+</tr>
+<tr>
+<td>Replace Word</td>
+<td><code>:s/searchword/replaceword/</code></td>
+</tr>
+<tr>
+<td>Replace All</td>
+<td><code>:s/searchword/replaceword/g</code></td>
+</tr>
+<tr>
+<td>Replace with Confirm</td>
+<td><code>:s/searchword/replaceword/gc</code></td>
+</tr>
+<tr>
+<td>Replace in Whole File</td>
+<td><code>:%s/searchword/replaceword/gc</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="fundamentals-operating-systems-text-editing">Text Editing</h3>
+<p>We have edited some text files before by using the i key. There are Four keys used for the insertion of text, Just type the key into the normal mode in vim:</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>i</td>
+<td>Put cursor before the current position</td>
+</tr>
+<tr>
+<td>a</td>
+<td>Put cursor after the current position</td>
+</tr>
+<tr>
+<td>o</td>
+<td>Put cursor below the line</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Put cursor above the line</td>
+</tr>
+</tbody>
+</table>
+<p>Motion - Provide context to your Operators, These execute the action in a particular way:</p>
+<table>
+<thead>
+<tr>
+<th>Motion</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>w</td>
+<td>Until the start of the next word (excluding first)</td>
+</tr>
+<tr>
+<td>e</td>
+<td>To the end of the current word (including last)</td>
+</tr>
+<tr>
+<td>$</td>
+<td>To the end of the line (including last character)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Motion</p>
+<p>We can use motion with the <code>d</code> key and with many more keys.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Count</p>
+<p>The number for which replete the motion for count number. Here is a demonstration of the use of count and motion:</p>
+<ul>
+<li>To move courser 2 words forward use the following command: <code>2w</code>.
+Here 2 is the number of counts and w is used for word.</li>
+<li>To move the cursor 4 lines forward use the following command <code>4$</code></li>
+</ul>
+</div></section><section class="print-page" id="fundamentals-networking" heading-number="3.7"><h1 id="fundamentals-networking-networking">Networking</h1>
 <p>Network - Two or more computers or devices that are linked in order to share information.</p>
 <p>Networking refers to a large set of standards and protocols that organize and regulate the sharing of information.</p>
 <h2 id="fundamentals-networking-glossary">Glossary</h2>
