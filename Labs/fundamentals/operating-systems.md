@@ -117,3 +117,95 @@ The data structure used by the operating system to store and retrieve data.
 - **File and Directory Operations** - Both files and directories can be created, opened, read, written, deleted, closed, linked, unlinked, listed and truncated. It is possible to move across directories as well as find files within directories.
 
 - **Filesystem Layers** - The filesystem has multiple layers of abstraction: The applications, logical file system, File-organization module, basic file system, IO control, and devices.
+
+## Vim Editor
+
+[Vim](https://www.vim.org), short for Vi IMproved, is a highly configurable text editor built to enable efficient text editing. It’s an enhanced version of the Vi editor, which was developed back in the 1970s.
+
+!!! note "Built-in"
+    Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
+
+### Installation and Configuration
+
+Most Linux distributions come with Vim pre-installed. However, if it’s not available on your system, you can install it using your package manager.
+
+!!! info "Install Vim"
+    === "Ubuntu/Debian"
+        ```bash
+        sudo apt-get install vim
+        ```
+    === "Arch Linux"
+        ```bash
+        sudo pacman -S vim
+        ```
+    === "macOS"
+        ```bash
+        brew install vim
+        ```
+
+### Modes in Vim
+
+One of the unique features of Vim is its modes. Vim has several modes, each serving a different purpose:
+
+- Normal Mode: This is the default mode when you first open Vim. In this mode, you can navigate the file,
+delete text, copy text, and perform other commands.
+- Insert Mode: Allows you to insert and edit text. To enter Insert Mode from Normal Mode, press `i`.
+- Visual Mode: Here you can visually select blocks of text. To enter this mode from Normal Mode, press `v`.
+- Command-Line Mode: This mode lets you enter Vim commands. To enter Command-Line Mode from Normal Mode, press `:`.
+
+
+### Basic Commands in Vim
+
+| Action                | Command/Keys                 |
+|-----------------------|------------------------------|
+| Saving a File         | `:w`                         |
+| Exiting Vim           | `:q`                         |
+| Force Quit            | `:q!`                        |
+| Save and Quit         | `:wq`                        |
+| Move Cursor           | `h`, `j`, `k`, `l` or arrows |
+| Jump to Line Start    | `0`                          |
+| Jump to Line End      | `$`                          |
+| Jump to Specific Line | `:<line_number>`             |
+| Delete Word           | `dw`                         |
+| Delete N Words        | `d2w`                        |
+| Delete Line           | `d$`                         |
+| Undo                  | `u`                          |
+| Redo                  | `Ctrl+r`                     |
+| Search                | `/word`                      |
+| Next Match            | `n`                          |
+| Previous Match        | `N`                          |
+| Replace Word          | `:s/searchword/replaceword/` |
+| Replace All           | `:s/searchword/replaceword/g`|
+| Replace with Confirm  | `:s/searchword/replaceword/gc`|
+| Replace in Whole File | `:%s/searchword/replaceword/gc`|
+
+
+### Text Editing
+
+We have edited some text files before by using the i key. There are Four keys used for the insertion of text, Just type the key into the normal mode in vim:
+
+| Key | Effect |
+|-----|--------------------------------------------------|
+| i   | Put cursor before the current position           |
+| a   | Put cursor after the current position            |
+| o   | Put cursor below the line                        |
+| O   | Put cursor above the line                        |
+
+Motion - Provide context to your Operators, These execute the action in a particular way:
+
+| Motion | Effect                                             |
+|--------|----------------------------------------------------|
+| w      | Until the start of the next word (excluding first)  |
+| e      | To the end of the current word (including last)     |
+| $      | To the end of the line (including last character)   |
+
+!!! tip "Motion"
+    We can use motion with the `d` key and with many more keys.
+
+
+!!! info "Count"
+    The number for which replete the motion for count number. Here is a demonstration of the use of count and motion:
+
+    - To move courser 2 words forward use the following command: `2w`.
+    Here 2 is the number of counts and w is used for word.
+    - To move the cursor 4 lines forward use the following command `4$`
